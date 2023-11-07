@@ -48,6 +48,16 @@ nav{
   font-weight: 600;
   transition: 0.2s;
 }
+.navbar-cart-icon {
+  font-size: 1.15rem;
+}
+.primary-button:hover {
+  background-color: rgb(234, 234, 234);
+}
+.navbar-menu-container svg {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
 
 
 @media (max-width: 1000px) {
@@ -74,67 +84,56 @@ nav{
     display: flex;
   }
 }
-
-/*
-.navbar-cart-icon {
-  font-size: 1.15rem;
-}
-.primary-button:hover {
-  background-color: rgb(234, 234, 234);
-}
-.navbar-menu-container svg {
-  font-size: 1.5rem;
-  cursor: pointer;
-}
 .home-banner-container {
   position: relative;
   display: flex;
-  padding-top: 3rem;
+  padding-top: -9px;
+  
 }
 .home-bannerImage-container {
   position: absolute;
   top: -100px;
   right: -170px;
   z-index: -2;
-  max-width: 700px;
+  max-width: 750px;
 }
 .home-image-section {
-  max-width: 600px;
+  max-width: 550px;
   flex: 1;
 }
 .home-text-section {
-  flex: 1;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex: 1;
+  flex-direction: column;
   align-items: flex-start;
 }
 .primary-heading {
+  color : #fe9e0d;
   font-size: clamp(2rem, 5vw, 4rem);
-  color: #4c4c4c;
-  /* line-height: 5rem; 
   max-width: 600px;
-}*/
-/* .primary-text {
-  font-size: clamp(1rem, 3vw, 1.5rem);
-  max-width: 500px;
-  color: #6a6a6a;
-  margin: 1.5rem 0rem;
+  line-height: 4rem;
 }
-.secondary-button {
-  padding: 1rem 2.5rem;
-  background-color: #fe9e0d;
-  outline: none;
+.primary-text {
+  color: #6a6a6a;
+  max-width: 500px;
+  margin: 1.5rem 0rem;
+  font-size: clamp(0.8rem, 3vw, 1.3rem);
+}
+.secondary-button{
   border: none;
   border-radius: 5rem;
-  font-size: 1.1rem;
-  cursor: pointer;
-  font-weight: 600;
-  color: white;
-  transition: 0.2s;
-  display: flex;
+  outline: none;
+  color: #f6f6f6;
+  background-color: #fe9e0d ;
   align-items: center;
   justify-content: center;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: flex;
+  transition: 0.2s;
+  font-weight: 600;
 }
 .secondary-button svg {
   margin-left: 0.75rem;
@@ -143,6 +142,10 @@ nav{
 .secondary-button:hover {
   background-color: #e48f0f;
 }
+
+
+/* 
+
 .about-section-container {
   margin-top: 20rem;
   position: relative;
