@@ -192,8 +192,52 @@ nav{
   margin-right: 1rem;
 }
 
-/* --------------------- */
-
+/* --------------------- Work Section -------------- */
+.work-section-wrapper {
+  margin-top: 15rem;
+}
+.work-section-top p{
+  text-align: center;
+  max-width: 600px !important;
+}
+.work-section-top h1{
+  max-width: 700px !important;
+}
+.work-section-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.work-section-info {
+  width: 290px;
+  background-color: white;
+  color: #505050;
+  min-height: 350px;
+  padding: 1rem 2rem;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem;
+  border-radius: 1rem;
+}
+.work-section-info h2{
+  margin: 1rem 0rem;
+}
+.work-section-info p{
+  display: flex;
+  flex: 1;
+  font-weight: 600;
+  align-items: center;
+}
+.work-section-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
 /*---------------------Media queries -------------------- */
 @media (max-width: 1000px) {
   .navbar-links-container a {
@@ -220,58 +264,7 @@ nav{
   }
 }
 
-/* 
 
-.about-section-container {
-  margin-top: 20rem;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.about-background-image-container {
-  position: absolute;
-  left: -150px;
-  z-index: -2;
-}
-.about-section-image-container {
-  flex: 0.9;
-  margin-right: 1rem;
-}
-.about-section-text-container {
-  flex: 1;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-.primary-subheading {
-  font-weight: 700;
-  color: #fe9e0d;
-  font-size: 1.15rem;
-}
-.about-buttons-container {
-  margin-top: 2rem;
-  display: flex;
-}
-.watch-video-button {
-  margin-left: 2rem;
-  background-color: transparent;
-  outline: none;
-  border: none;
-  border-radius: 5rem;
-  font-size: 1.1rem;
-  cursor: pointer;
-  font-weight: 600;
-  color: #484848;
-  transition: 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.watch-video-button svg {
-  font-size: 3rem;
-  margin-right: 1rem;
-} */
 /* .contact-page-wrapper h1 {
   max-width: 900px !important;
 }
