@@ -49,7 +49,7 @@ const Navbar = () => {
 
       <div className="navbar-links-container">
         <a href="">Home</a>
-        <a href="">About</a>
+        <a href="/About">About</a>
         <a href="">Testimonials</a>
         <a href="">Contact</a>
         <a href="">
@@ -82,7 +82,7 @@ const Navbar = () => {
         </Box>
       </Drawer>
     </nav>
-  );
+  )
 };
 
 export default Navbar;
